@@ -32,7 +32,7 @@ import { cn } from "@/components/ui/lib/utils.ts";
 import { blobEvent } from "@/events/blob.ts";
 import { isB64Image } from "@/utils/base.ts";
 
-const MaxFileSize = 1024 * 1024 * 25; // 25MB File Size Limit
+const MaxFileSize = 1024 * 1024 * 100; // 100MB File Size Limit
 const MaxPromptSize = 5000; // 5000 Prompt Size Limit (to avoid token overflow)
 
 type FileProviderProps = {
